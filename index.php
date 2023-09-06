@@ -31,7 +31,7 @@
    
         <div class="col-md-9">
             <label class="" for="">Tanda Tangan:</label>
-            <!-- <br/> -->
+            <br/>
             <div id="sig" ></div>
             <!-- <br/> -->
             
@@ -39,7 +39,7 @@
         </div>
    
         <br/>
-        <button id="clear" class="btn btn-danger text-center">Hapus Tanda Tangan</button>
+        <button id="clear" class="btn btn-danger">Hapus Tanda Tangan</button>
         <button class="btn btn-success">Submit</button>
     </form>
    
@@ -53,5 +53,7 @@
         $("#signature64").val('');
     });
 </script>
+
+    
 </body>
 </html>
